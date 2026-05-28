@@ -9,6 +9,7 @@
     }
 
 
+
     #HTML{
         color: orange;
     }
@@ -21,4 +22,22 @@
 
     #javaScript{
         color: yellow
+    }
+
+    button {
+        background-color: rgb(148, 148, 196);
+        padding: 10px 20px; /* ESPAÇO INTERNO */
+        margin: 10px; /* ESPAÇO EXTERNO */
+        border-radius: 10px; /* BORDA */
+        max-width: 200px;
+    }
+
+    span{
+        font-size: 20px;
+        color: black;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
     }
