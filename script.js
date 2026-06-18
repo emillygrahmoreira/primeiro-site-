@@ -12,7 +12,18 @@ const botao = document.querySelector("button")
     tamanho.addEventListener("click", aumentarFonte)
     let fonte = 16;
 
-    //FUNÇÃO
+    //FUNÇÃO DO TAMANHO
     function aumentarFonte(){
-        document.body.style.fontStyle = fonte + "px";
+        fonte++;
+        document.body.style.fontSize = fonte + "px";
     }
+
+    //BOTÃO DO CONTRASTE
+    const contraste = document.getElementById("contraste")
+    contraste.addEventListener("click", mudarContraste)
+
+
+    //FUNÇÃO DO CONTRASTE
+   function mudarContraste(){
+     document.body.style.color = 'yellow';
+   }
